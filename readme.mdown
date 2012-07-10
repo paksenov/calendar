@@ -6,6 +6,7 @@ A Calendar and Date handling library for PHP
 
 ```php
 
+
 $cal = new calendar();
 
 
@@ -33,6 +34,8 @@ foreach($cal->day(2012, 07, 10)->hours() as $hour) {
   }  	
 }
 
+echo $cal->year(2000)->next()->months()->first()->next()->firstDay()->iso();
+
 
 ```
 
@@ -46,6 +49,5 @@ This is just a rough first version, but maybe you like it. Here are some of the 
 - improved examples
 - timezone handling
 - interval handling
-
 
 

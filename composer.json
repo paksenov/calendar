@@ -1,5 +1,5 @@
 {
-  "name": "bastianallgeier/calendar",
+  "name": "paksenov/calendar",
   "type": "library",
   "description": "A Calendar and Date handling library for PHP.",
   "keywords": ["Calendar","Date"],

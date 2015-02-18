@@ -1,11 +1,20 @@
 {
-  "name":"paksenov/calendar",
-  "version":"1.0.0",
+  "name": "bastianallgeier/calendar",
+  "description": "A Calendar and Date handling library for PHP",
+  "homepage": "https://github.com/bastianallgeier/calendar",
+  "keywords": ["Calendar", "Date", "Month", "Day", "Week", "Year"],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Bastian Allgeier",
+      "email": "bastian@getkirby.com"
+    }
+  ],
   "require": {
     "php": ">=5.3.0"
   },
   "autoload": {
-    "psr-0": {"BastianAllgeier": "src/"}
+    "psr-4": {"BastianAllgeier": "src/"}
   }
 }
 

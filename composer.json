@@ -16,7 +16,13 @@
   },
   "autoload": {
     "psr-0": {"BastianAllgeier": "src/"}
-  }
+  },
+  "repositories":[
+    {
+      "type":"git",
+      "url":"https://github.com/paksenov/calendar"
+    }
+  ]
 }
 
 

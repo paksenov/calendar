@@ -1,6 +1,6 @@
 <?php
 
-require('../calendar.php');
+use BastianAllgeier\Calendar;
 
 date_default_timezone_set('UTC');
 setlocale(LC_ALL, 'en_US');
@@ -8,7 +8,7 @@ setlocale(LC_ALL, 'en_US');
 // get the year from the query string and sanitize it
 $year = filter_input(INPUT_GET, 'year', FILTER_VALIDATE_INT);
 
-$calendar    = new calendar();
+$calendar    = new Calendar();
 $currentYear = $calendar->year($year);
 
 // get the previous and next year for pagination

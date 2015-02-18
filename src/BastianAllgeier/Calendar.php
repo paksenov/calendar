@@ -1,5 +1,7 @@
 <?php
 
+namespace BastianAllgeier;
+
 class CalendarIterator implements Iterator {
 
   private $_ = array();

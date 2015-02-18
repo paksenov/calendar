@@ -1,6 +1,6 @@
 <?php
 
-require('../calendar.php');
+use BastianAllgeier\Calendar;
 
 date_default_timezone_set('UTC');
 setlocale(LC_ALL, 'en_US');
@@ -10,7 +10,7 @@ $year = filter_input(INPUT_GET, 'year', FILTER_VALIDATE_INT);
 $week = filter_input(INPUT_GET, 'week', FILTER_VALIDATE_INT);
 
 // initialize the calendar object
-$calendar = new calendar();
+$calendar = new Calendar();
 
 // get the current week object by year and number of week
 $currentWeek = $calendar->week($year, $week);
